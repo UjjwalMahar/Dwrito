@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62185482602",
+    "project_id": "dwrito-fdcbc",
+    "storage_bucket": "dwrito-fdcbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62185482602:android:605aadf4f4bb115aecdd13",
+        "android_client_info": {
+          "package_name": "com.example.dwrito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62185482602-afsj45kln0jkhbaiqjbk6fnhoj4lhbk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_CUkMZOqop1D2EmOKCl5l5PGPNipUbsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62185482602-afsj45kln0jkhbaiqjbk6fnhoj4lhbk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

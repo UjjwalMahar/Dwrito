@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".ScannerActivity">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/scanner"
+        android:id="@+id/idIVCaptureImage"
+        />
+
+    <TextView
+        android:id="@+id/idTVDetectedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVCaptureImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Your result will appear here"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/idBtnSnap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVCaptureImage"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_back"
+        android:backgroundTint="@color/yellow"
+        android:text="Snap"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idBtnDetect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnSnap"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_back"
+        android:backgroundTint="@color/yellow"
+        android:text="Search"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

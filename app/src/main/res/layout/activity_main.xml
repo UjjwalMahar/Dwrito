@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/scanner"
+        android:layout_marginTop="70dp"
+        android:id="@+id/idVLogo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idVLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="WELCOME TO DWRITO v0.1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idVLogo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="20dp"
+        android:text="Capture Image"
+        android:textAllCaps="false"
+        android:id="@+id/idBtnCapture"
+        android:background="@drawable/button_back"
+        app:backgroundTint="@color/yellow"
+        />
+
+</RelativeLayout>
